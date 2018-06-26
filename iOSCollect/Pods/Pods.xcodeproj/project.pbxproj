@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A10BA829D59CD9A537A542B519FA96 /* YALAnimatingTabBarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 43256ED27EBF443C2C574DE128DB5BB5 /* YALAnimatingTabBarConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07EC0022A49EF4CF75474DB36807FC55 /* YALCustomHeightTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1FF39823295243D3FF6812F3D3693B /* YALCustomHeightTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D171A1748C721E3740ABADA1551950A /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAA75CB5BFB74BE350A90DE705C809D /* CAAnimation+YALTabBarViewAnimations.m */; };
+		16B59E60004721670B1D300A64FFD08E /* YALCustomHeightTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E825A37BFF4E9751B0757C6015CE2 /* YALCustomHeightTabBar.m */; };
+		261EC7F6A41F07F48C33950419545044 /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B6F27863A197B8E36008D17016E66 /* YALTabBarItem.m */; };
+		2D06B675B726BF0ADB8456A49594A42A /* FoldingTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11B5634E91E5399587C28CB04C97D03 /* FoldingTabBar-dummy.m */; };
+		3DCDDDAE9F58FB52290140AAF5578716 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEF3F98F6395F6B37C30EC4F9F92FDA /* YALFoldingTabBar.m */; };
+		45FDD79AAB7191B98C6DB2C6E129FA84 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C718B880C8C19BAE8A7AC3A64928F /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		509272D8F937E239A412C4375C977C30 /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5ED5AFAED066AAE6C5816560ED9B3B6 /* YALFoldingTabBarController.m */; };
+		5CFAD758AE69A6738FEE696BD0CC69E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA08EB53EA5345FD7140B51205E8D62 /* QuartzCore.framework */; };
+		6A1A93F88EE00836B3C508D92C6604DB /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24069C3D8780119EEB48844428DA19A9 /* YALSpringAnimation.m */; };
+		7122BAC027CBCBEA6B88602996976BB0 /* UIView+Insets.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C46B4CC3B6682FBF5EC29EA9F8132BB /* UIView+Insets.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78A839B9659BC101B816AA1E21D35A3C /* YALFoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1BE697361A5B36F4C212D27D2D5211 /* YALFoldingTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B7F2F015951368F26947588047C6238 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D2DAE6CACE41048088276FAC33F8D /* YALAnimatingTabBarConstants.m */; };
+		8D29FD7B97849BB26D9FE800DEB0A24C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F2FA663ABD07CD9340F021A7255CFF35 /* Info.plist */; };
+		A252A19DC8F17B0536A8056635B0C7B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DF18D0B2AAE7E9717A95D9C69F7525 /* UIKit.framework */; };
+		B37F9D1202D600BD183FA330C97C410A /* FoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D42A395BBE5C6FD0733566D0364C49 /* FoldingTabBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8CC52FEFD7E8CCDC764728A142C824F /* Pods-iOSCollect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 455857F22152B4C620AB8C5D96A539FA /* Pods-iOSCollect-dummy.m */; };
+		CB75DC10785144B211E826E0ED34AA37 /* YALFoldingTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE47661A521988AD2EF9EB08E069E1B1 /* YALFoldingTabBarController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD8CEA602BFB016DC60CCC0BC75DBEE /* YALTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EF22180263C4D34A73FDC856048B66 /* YALTabBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D89C880536AC3550F209FE715D2D9F29 /* CAAnimation+YALTabBarViewAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A760FE8A7EECFC2A64A13E45968273 /* CAAnimation+YALTabBarViewAnimations.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ECE67A05B3D38CAE9E462040881C98A2 /* UIView+Insets.m in Sources */ = {isa = PBXBuildFile; fileRef = 99754278DEE7FE71C4C5803A4D492E20 /* UIView+Insets.m */; };
+		F2F16CF46140CAD95FFF5DA71ED3FA3C /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = 5814A73D1D9C8EC17F6259AFD49412D4 /* CATransaction+TransactionWithAnimationsAndCompletion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA2326FD4DB4653AE7B994BD8459E9CB /* YALSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BD50B577DD9DC0C27E43A4C20BC7AA /* YALSpringAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		246AD1F0319DF8FF9E688B7114C3B15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BFEB9AF8D919168A76AD9F11C02BD8;
+			remoteInfo = FoldingTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAA75CB5BFB74BE350A90DE705C809D /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+YALTabBarViewAnimations.m"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
+		0F5A163F28B0DFA0A490AE5BEDC53D23 /* Pods-iOSCollect-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSCollect-acknowledgements.plist"; sourceTree = "<group>"; };
+		207B6F27863A197B8E36008D17016E66 /* YALTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALTabBarItem.m; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.m; sourceTree = "<group>"; };
+		24069C3D8780119EEB48844428DA19A9 /* YALSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALSpringAnimation.m; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m; sourceTree = "<group>"; };
+		26EF22180263C4D34A73FDC856048B66 /* YALTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarItem.h; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.h; sourceTree = "<group>"; };
+		27D42A395BBE5C6FD0733566D0364C49 /* FoldingTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FoldingTabBar.h; path = FoldingTabBar/Resources/FoldingTabBar.h; sourceTree = "<group>"; };
+		2B2C718B880C8C19BAE8A7AC3A64928F /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+TransactionWithAnimationsAndCompletion.m"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
+		2FC3280902E34AEFDD04872ADE5E7003 /* Pods-iOSCollect-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSCollect-resources.sh"; sourceTree = "<group>"; };
+		311741F3639F21F2F90D6CFE2B310443 /* FoldingTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-prefix.pch"; sourceTree = "<group>"; };
+		35BD50B577DD9DC0C27E43A4C20BC7AA /* YALSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALSpringAnimation.h; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h; sourceTree = "<group>"; };
+		366D2DAE6CACE41048088276FAC33F8D /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALAnimatingTabBarConstants.m; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		3B1FF39823295243D3FF6812F3D3693B /* YALCustomHeightTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALCustomHeightTabBar.h; path = FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.h; sourceTree = "<group>"; };
+		3D6684F4E55D3DB5D0EBDD8620D33DA1 /* Pods-iOSCollect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCollect.release.xcconfig"; sourceTree = "<group>"; };
+		43256ED27EBF443C2C574DE128DB5BB5 /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALAnimatingTabBarConstants.h; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
+		455857F22152B4C620AB8C5D96A539FA /* Pods-iOSCollect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSCollect-dummy.m"; sourceTree = "<group>"; };
+		4C46B4CC3B6682FBF5EC29EA9F8132BB /* UIView+Insets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Insets.h"; path = "FoldingTabBar/Category/UIView/UIView+Insets.h"; sourceTree = "<group>"; };
+		53A760FE8A7EECFC2A64A13E45968273 /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+YALTabBarViewAnimations.h"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
+		5814A73D1D9C8EC17F6259AFD49412D4 /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+TransactionWithAnimationsAndCompletion.h"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
+		6C1BE697361A5B36F4C212D27D2D5211 /* YALFoldingTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBar.h; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h; sourceTree = "<group>"; };
+		6C692B9C234E538000D1BADE44065FD3 /* Pods-iOSCollect-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSCollect-frameworks.sh"; sourceTree = "<group>"; };
+		843E825A37BFF4E9751B0757C6015CE2 /* YALCustomHeightTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALCustomHeightTabBar.m; path = FoldingTabBar/View/CustomHeightTabBar/YALCustomHeightTabBar.m; sourceTree = "<group>"; };
+		933F2DB7E3C6BEB26D76B78355FA0EF7 /* libPods-iOSCollect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOSCollect.a"; path = "libPods-iOSCollect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9715ED3954E6F23FF3A33465A70559F7 /* FoldingTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingTabBar.xcconfig; sourceTree = "<group>"; };
+		99754278DEE7FE71C4C5803A4D492E20 /* UIView+Insets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Insets.m"; path = "FoldingTabBar/Category/UIView/UIView+Insets.m"; sourceTree = "<group>"; };
+		A2DF18D0B2AAE7E9717A95D9C69F7525 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ACA08EB53EA5345FD7140B51205E8D62 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA77B62A18297BF1E5BFF7ACB1E2023C /* Pods-iOSCollect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSCollect.debug.xcconfig"; sourceTree = "<group>"; };
+		CE47661A521988AD2EF9EB08E069E1B1 /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBarController.h; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		D11B5634E91E5399587C28CB04C97D03 /* FoldingTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingTabBar-dummy.m"; sourceTree = "<group>"; };
+		D5ED5AFAED066AAE6C5816560ED9B3B6 /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBarController.m; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m; sourceTree = "<group>"; };
+		DDD9C7AF6A3967F4F5A6BE9AE2DE75D2 /* Pods-iOSCollect-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSCollect-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEB3FF161FEFBB9A54A6AC092B5F0D4D /* libFoldingTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFoldingTabBar.a; path = libFoldingTabBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEF3F98F6395F6B37C30EC4F9F92FDA /* YALFoldingTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBar.m; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m; sourceTree = "<group>"; };
+		F2FA663ABD07CD9340F021A7255CFF35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = FoldingTabBar/Resources/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F20F613EEF9EC119B6EBDAA2C5857A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFAD758AE69A6738FEE696BD0CC69E4 /* QuartzCore.framework in Frameworks */,
+				A252A19DC8F17B0536A8056635B0C7B4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBE256D69B1903B48780429E7417479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				984694A3022BF6DBD9AA9E4250A5B52B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718CED4490DE4C7CE0C3E15852466A69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FD3914ADF832413054BDE061B135DB8 /* FoldingTabBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75C3D5D00168DE0E2B1B739CD98D56B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3FF161FEFBB9A54A6AC092B5F0D4D /* libFoldingTabBar.a */,
+				933F2DB7E3C6BEB26D76B78355FA0EF7 /* libPods-iOSCollect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				718CED4490DE4C7CE0C3E15852466A69 /* Pods */,
+				75C3D5D00168DE0E2B1B739CD98D56B6 /* Products */,
+				CB762DABA29A1CAE706A9EC4BE88076A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD3914ADF832413054BDE061B135DB8 /* FoldingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				53A760FE8A7EECFC2A64A13E45968273 /* CAAnimation+YALTabBarViewAnimations.h */,
+				0CAA75CB5BFB74BE350A90DE705C809D /* CAAnimation+YALTabBarViewAnimations.m */,
+				5814A73D1D9C8EC17F6259AFD49412D4 /* CATransaction+TransactionWithAnimationsAndCompletion.h */,
+				2B2C718B880C8C19BAE8A7AC3A64928F /* CATransaction+TransactionWithAnimationsAndCompletion.m */,
+				27D42A395BBE5C6FD0733566D0364C49 /* FoldingTabBar.h */,
+				F2FA663ABD07CD9340F021A7255CFF35 /* Info.plist */,
+				4C46B4CC3B6682FBF5EC29EA9F8132BB /* UIView+Insets.h */,
+				99754278DEE7FE71C4C5803A4D492E20 /* UIView+Insets.m */,
+				43256ED27EBF443C2C574DE128DB5BB5 /* YALAnimatingTabBarConstants.h */,
+				366D2DAE6CACE41048088276FAC33F8D /* YALAnimatingTabBarConstants.m */,
+				3B1FF39823295243D3FF6812F3D3693B /* YALCustomHeightTabBar.h */,
+				843E825A37BFF4E9751B0757C6015CE2 /* YALCustomHeightTabBar.m */,
+				6C1BE697361A5B36F4C212D27D2D5211 /* YALFoldingTabBar.h */,
+				EFEF3F98F6395F6B37C30EC4F9F92FDA /* YALFoldingTabBar.m */,
+				CE47661A521988AD2EF9EB08E069E1B1 /* YALFoldingTabBarController.h */,
+				D5ED5AFAED066AAE6C5816560ED9B3B6 /* YALFoldingTabBarController.m */,
+				35BD50B577DD9DC0C27E43A4C20BC7AA /* YALSpringAnimation.h */,
+				24069C3D8780119EEB48844428DA19A9 /* YALSpringAnimation.m */,
+				26EF22180263C4D34A73FDC856048B66 /* YALTabBarItem.h */,
+				207B6F27863A197B8E36008D17016E66 /* YALTabBarItem.m */,
+				EDA96B689F3DCD393AB64708B872ABA5 /* Support Files */,
+			);
+			name = FoldingTabBar;
+			path = FoldingTabBar;
+			sourceTree = "<group>";
+		};
+		984694A3022BF6DBD9AA9E4250A5B52B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ACA08EB53EA5345FD7140B51205E8D62 /* QuartzCore.framework */,
+				A2DF18D0B2AAE7E9717A95D9C69F7525 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB762DABA29A1CAE706A9EC4BE88076A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B232BF5F64406B7B5D83978F4D9B0E /* Pods-iOSCollect */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D0B232BF5F64406B7B5D83978F4D9B0E /* Pods-iOSCollect */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9C7AF6A3967F4F5A6BE9AE2DE75D2 /* Pods-iOSCollect-acknowledgements.markdown */,
+				0F5A163F28B0DFA0A490AE5BEDC53D23 /* Pods-iOSCollect-acknowledgements.plist */,
+				455857F22152B4C620AB8C5D96A539FA /* Pods-iOSCollect-dummy.m */,
+				6C692B9C234E538000D1BADE44065FD3 /* Pods-iOSCollect-frameworks.sh */,
+				2FC3280902E34AEFDD04872ADE5E7003 /* Pods-iOSCollect-resources.sh */,
+				BA77B62A18297BF1E5BFF7ACB1E2023C /* Pods-iOSCollect.debug.xcconfig */,
+				3D6684F4E55D3DB5D0EBDD8620D33DA1 /* Pods-iOSCollect.release.xcconfig */,
+			);
+			name = "Pods-iOSCollect";
+			path = "Target Support Files/Pods-iOSCollect";
+			sourceTree = "<group>";
+		};
+		EDA96B689F3DCD393AB64708B872ABA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9715ED3954E6F23FF3A33465A70559F7 /* FoldingTabBar.xcconfig */,
+				D11B5634E91E5399587C28CB04C97D03 /* FoldingTabBar-dummy.m */,
+				311741F3639F21F2F90D6CFE2B310443 /* FoldingTabBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingTabBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9C46FC21B52581018C7E65CA66C651A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89C880536AC3550F209FE715D2D9F29 /* CAAnimation+YALTabBarViewAnimations.h in Headers */,
+				F2F16CF46140CAD95FFF5DA71ED3FA3C /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */,
+				B37F9D1202D600BD183FA330C97C410A /* FoldingTabBar.h in Headers */,
+				7122BAC027CBCBEA6B88602996976BB0 /* UIView+Insets.h in Headers */,
+				06A10BA829D59CD9A537A542B519FA96 /* YALAnimatingTabBarConstants.h in Headers */,
+				07EC0022A49EF4CF75474DB36807FC55 /* YALCustomHeightTabBar.h in Headers */,
+				78A839B9659BC101B816AA1E21D35A3C /* YALFoldingTabBar.h in Headers */,
+				CB75DC10785144B211E826E0ED34AA37 /* YALFoldingTabBarController.h in Headers */,
+				FA2326FD4DB4653AE7B994BD8459E9CB /* YALSpringAnimation.h in Headers */,
+				CBD8CEA602BFB016DC60CCC0BC75DBEE /* YALTabBarItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21BFEB9AF8D919168A76AD9F11C02BD8 /* FoldingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F00B8813EB784A1BEA4164F998BE8F9 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */;
+			buildPhases = (
+				675EAE8875BFD12898A2C1A78A70D141 /* Sources */,
+				12F20F613EEF9EC119B6EBDAA2C5857A /* Frameworks */,
+				D9C46FC21B52581018C7E65CA66C651A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingTabBar;
+			productName = FoldingTabBar;
+			productReference = EEB3FF161FEFBB9A54A6AC092B5F0D4D /* libFoldingTabBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1F9459F735A1AE5104B26F99DF11FD5 /* Pods-iOSCollect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C047B15553916887F063FC7158E5B6D9 /* Build configuration list for PBXNativeTarget "Pods-iOSCollect" */;
+			buildPhases = (
+				0DD92B04B4D8692DC18FD7A99259F88A /* Sources */,
+				1DBE256D69B1903B48780429E7417479 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDF21A79115ED1724CAF66F62698CBC /* PBXTargetDependency */,
+			);
+			name = "Pods-iOSCollect";
+			productName = "Pods-iOSCollect";
+			productReference = 933F2DB7E3C6BEB26D76B78355FA0EF7 /* libPods-iOSCollect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 75C3D5D00168DE0E2B1B739CD98D56B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21BFEB9AF8D919168A76AD9F11C02BD8 /* FoldingTabBar */,
+				C1F9459F735A1AE5104B26F99DF11FD5 /* Pods-iOSCollect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD92B04B4D8692DC18FD7A99259F88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CC52FEFD7E8CCDC764728A142C824F /* Pods-iOSCollect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675EAE8875BFD12898A2C1A78A70D141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D171A1748C721E3740ABADA1551950A /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				45FDD79AAB7191B98C6DB2C6E129FA84 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				2D06B675B726BF0ADB8456A49594A42A /* FoldingTabBar-dummy.m in Sources */,
+				8D29FD7B97849BB26D9FE800DEB0A24C /* Info.plist in Sources */,
+				ECE67A05B3D38CAE9E462040881C98A2 /* UIView+Insets.m in Sources */,
+				8B7F2F015951368F26947588047C6238 /* YALAnimatingTabBarConstants.m in Sources */,
+				16B59E60004721670B1D300A64FFD08E /* YALCustomHeightTabBar.m in Sources */,
+				3DCDDDAE9F58FB52290140AAF5578716 /* YALFoldingTabBar.m in Sources */,
+				509272D8F937E239A412C4375C977C30 /* YALFoldingTabBarController.m in Sources */,
+				6A1A93F88EE00836B3C508D92C6604DB /* YALSpringAnimation.m in Sources */,
+				261EC7F6A41F07F48C33950419545044 /* YALTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CDF21A79115ED1724CAF66F62698CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoldingTabBar;
+			target = 21BFEB9AF8D919168A76AD9F11C02BD8 /* FoldingTabBar */;
+			targetProxy = 246AD1F0319DF8FF9E688B7114C3B15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		083C87A01A1D22D87EC1B0CBE7BDFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA77B62A18297BF1E5BFF7ACB1E2023C /* Pods-iOSCollect.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		123D20E96E10A35685ABD3A11061ADB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6684F4E55D3DB5D0EBDD8620D33DA1 /* Pods-iOSCollect.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB0DBAA6E0C416BC4DF693C20D38C89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9715ED3954E6F23FF3A33465A70559F7 /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FoldingTabBar;
+				PRODUCT_NAME = FoldingTabBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE694077367973842378BF384A9A6FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9715ED3954E6F23FF3A33465A70559F7 /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FoldingTabBar;
+				PRODUCT_NAME = FoldingTabBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F00B8813EB784A1BEA4164F998BE8F9 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0DBAA6E0C416BC4DF693C20D38C89F /* Debug */,
+				DE694077367973842378BF384A9A6FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C047B15553916887F063FC7158E5B6D9 /* Build configuration list for PBXNativeTarget "Pods-iOSCollect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083C87A01A1D22D87EC1B0CBE7BDFA09 /* Debug */,
+				123D20E96E10A35685ABD3A11061ADB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

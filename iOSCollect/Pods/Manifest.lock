@@ -1,0 +1,16 @@
+PODS:
+  - FoldingTabBar (1.2.1)
+
+DEPENDENCIES:
+  - FoldingTabBar (~> 1.2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FoldingTabBar
+
+SPEC CHECKSUMS:
+  FoldingTabBar: b1817b36d15eedefd8e42f66abbd36fe4feabcf2
+
+PODFILE CHECKSUM: 2e933715bca255a95f19cef8dd9f81490cf0244f
+
+COCOAPODS: 1.5.2
